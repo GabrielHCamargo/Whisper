@@ -1,0 +1,6 @@
+version: '3'
+services:
+  app:
+    build: .
+    volumes:
+      - ./shared_data:/path/to/inside/container/shared_data
